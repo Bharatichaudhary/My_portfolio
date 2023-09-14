@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center home d-flex">
+   <img src="~/lib/assets/Myprofile.jpg" alt="MyImage"/>
+   <div class="desc">
+       <h2>Hello</h2>
+       <h6>A Bit About Me</h6>
+       <p>I'm a student currently studying 6th semester in Bsc.CSIT and this is my portfolio project using Asp .net core.</p>
+        <div class="d-flex">
+            <div class="box bg-success">
+                                            <a asp-area="" asp-controller="Home" asp-action="Resume"> Resume </a>
+
+            </div>
+            <div class="box bg-primary">
+                                            <a  asp-area="" asp-controller="Home" asp-action="Projects">Projects</a>
+
+            </div>
+            <div class="box bg-warning">
+                           <a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+            </div>
+
+        </div>
+        
+   </div>
+</div>
